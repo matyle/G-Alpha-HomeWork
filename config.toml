@@ -1,0 +1,16 @@
+# Ethereum MCP Server Configuration
+
+[ethereum]
+# RPC URL - 使用公共 RPC 或配置你自己的
+rpc_url = "https://eth.llamarpc.com"
+
+# 私钥 - 请替换为你的真实私钥（带 0x 前缀）
+# 注意：这是用于签名交易的私钥，请确保安全存储
+private_key = "0x1234567890123456789012345678901234567890123456789012345678901234"
+
+# 可选：使用其他 RPC 提供商
+# rpc_url = "https://mainnet.infura.io/v3/YOUR_PROJECT_ID"
+# rpc_url = "https://eth-mainnet.alchemyapi.io/v2/YOUR_API_KEY"
+
+[logging]
+level = "info"

@@ -1,0 +1,22 @@
+# Ethereum MCP Server Configuration Example
+
+[ethereum]
+# Ethereum RPC URL
+rpc_url = "https://eth.llamarpc.com"
+
+# Wallet private key (for transaction signing)
+# Note: Ensure private key security, do not commit to version control
+private_key = "0xYOUR_PRIVATE_KEY"
+
+# Optional: Custom RPC endpoints
+# rpc_url = "https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY"
+# rpc_url = "https://mainnet.infura.io/v3/YOUR_PROJECT_ID"
+
+[mcp]
+# MCP server configuration
+host = "127.0.0.1"
+port = 8080
+
+[logging]
+# Log level: trace, debug, info, warn, error
+level = "info"
